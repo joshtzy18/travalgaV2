@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-border {
+  @apply border-solid border-red-500 border-2;
+}
+
+.custom-hr {
+  @apply h-0.5 w-[20%] bg-black;
+}
+
+.custom-hr2 {
+  @apply h-0.5 w-[68%] bg-black;
+}
