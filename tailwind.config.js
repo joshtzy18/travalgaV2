@@ -5,7 +5,9 @@ export default {
     extend: {
       fontFamily: {
         muli: ["Muli", "sans-serif"],
+        japanese: ["'Noto Sans JP'", "sans-serif"],
       },
+
       fontWeight: {
         thin: "100",
         hairline: "100",

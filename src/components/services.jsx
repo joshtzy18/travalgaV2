@@ -6,6 +6,8 @@ import details from '../assets/images/details.png';
 import emergency from '../assets/images/emergency.png';
 import tracking from '../assets/images/tracking.png';
 import leading from '../assets/images/leading.png';
+import download from '../assets/images/download-apps.png';
+import DownloadIcon from '@mui/icons-material/FileDownloadOutlined';
 
 
 const services = () => {
@@ -96,6 +98,23 @@ const services = () => {
          <button class=" mt-2 mb-8 font-muli text-sm font-extralight border-[1.4px] text-[#458FF6] border-[#458FF6] py-2 px-4 rounded-full">Learn more</button>
 
          </div>
+
+         <div className='flex flex-col justify-center items-center'>
+         <img className='pt-6 mb-4' src={download}/>
+
+         {/* <span className=' font-muli font-bold text-lg pt-4'>Leading healthcare providers</span> */}
+         <span className=' font-muli font-bold text-xl'>Download our mobile apps</span>
+         <hr className='mt-1 mb-2 custom-hr2'  />
+
+         <span className=' font-muli leading-6 font-light text-[#7D7987] text-sm text-center pt-2 pb-2 w-[80%]'>Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely </span>
+
+         <sbutton class="mt-2 mb-8 font-muli text-sm font-extralight border-[1.4px] text-[#458FF6] border-[#458FF6] py-2 px-4 rounded-full">Download <DownloadIcon fontSize="small"/> </sbutton>
+
+         </div>
+
+        
+       
+      
       </div>
 
       {/* end of mobile version */}

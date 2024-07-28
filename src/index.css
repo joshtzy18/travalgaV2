@@ -13,3 +13,11 @@
 .custom-hr2 {
   @apply h-0.5 w-[68%] bg-black;
 }
+
+.custom-hr3 {
+  @apply h-0.5 w-[12%] bg-white;
+}
+
+.custom-hr4 {
+  @apply h-0.5 w-[10%] bg-black;
+}
