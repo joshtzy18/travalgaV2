@@ -55,7 +55,7 @@ const articles = () => {
             </div>
 
             <Button
-        sx={{ mb: 10, borderRadius: 5, px: 5, textTransform: 'none', fontFamily: "muli", fontWeight: 700 }} variant="outlined">View all</Button>
+        sx={{ mb: 5, borderRadius: 5, px: 5, textTransform: 'none', fontFamily: "muli", fontWeight: 700 }} variant="outlined">View all</Button>
          </div>
 
     </div>
