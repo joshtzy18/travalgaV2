@@ -22,7 +22,8 @@ export default {
         black: "900",
       },
       textColor: {
-        color: "#1F1534",
+        color: "#3b82f6",
+        hover: "#3b82f6",
       },
     },
   },

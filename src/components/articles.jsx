@@ -11,7 +11,7 @@ import { Margin } from '@mui/icons-material';
 const articles = () => {
   return (
     // mobile view 
-    <div className='flex flex-col justify-center items-center mt-8'>
+    <div id='articles' className='flex flex-col justify-center items-center mt-8'>
          <span className=' font-muli font-bold text-xl'>Checkout our latest article</span>
          <hr className='mt-1 mb-2 custom-hr4'  />
 

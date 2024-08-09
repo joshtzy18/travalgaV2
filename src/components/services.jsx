@@ -18,7 +18,7 @@ const services = () => {
   {/* mobile version */}
      {/* Our services */}
 
-     <div className= 'pt-8 flex flex-col items-center'>
+     <div id='services' className= 'pt-8 flex flex-col items-center'>
           <span className=' font-muli font-bold text-[32px]'>Our services</span>
 
           {/* underline div */}
@@ -80,12 +80,13 @@ const services = () => {
             </div>
 
 
-            <button class=" mt-4 mb-2 font-muli font-extralight border-[1.4px] text-[#458FF6] border-[#458FF6] py-2 px-4 rounded-full">Consult today</button>
+            <button className=" mt-4 mb-2 font-muli font-extralight border-[1.4px] text-[#458FF6] border-[#458FF6] py-2 px-4 rounded-full">Consult today</button>
       
             
          </div>
 
-         <div className='flex flex-col justify-center items-center'>
+    
+         <div id='find-doctor' className='flex flex-col justify-center items-center'>
          <img className='pt-6 mb-4' src={leading}/>
 
          {/* <span className=' font-muli font-bold text-lg pt-4'>Leading healthcare providers</span> */}
@@ -95,11 +96,11 @@ const services = () => {
          <span className=' font-muli leading-6 font-light text-[#7D7987] text-sm text-center pt-2 pb-2 w-[80%]'>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride 
          in the solutions we deliver </span>
 
-         <button class=" mt-2 mb-8 font-muli text-sm font-extralight border-[1.4px] text-[#458FF6] border-[#458FF6] py-2 px-4 rounded-full">Learn more</button>
+         <button className=" mt-2 mb-8 font-muli text-sm font-extralight border-[1.4px] text-[#458FF6] border-[#458FF6] py-2 px-4 rounded-full">Learn more</button>
 
          </div>
 
-         <div className='flex flex-col justify-center items-center'>
+         <div id='download-apps' className='flex flex-col justify-center items-center'>
          <img className='pt-6 mb-4' src={download}/>
 
          {/* <span className=' font-muli font-bold text-lg pt-4'>Leading healthcare providers</span> */}
@@ -108,7 +109,7 @@ const services = () => {
 
          <span className=' font-muli leading-6 font-light text-[#7D7987] text-sm text-center pt-2 pb-2 w-[80%]'>Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely </span>
 
-         <sbutton class="mt-2 mb-8 font-muli text-sm font-extralight border-[1.4px] text-[#458FF6] border-[#458FF6] py-2 px-4 rounded-full">Download <DownloadIcon fontSize="small"/> </sbutton>
+         <button className="mt-2 mb-8 font-muli text-sm font-extralight border-[1.4px] text-[#458FF6] border-[#458FF6] py-2 px-4 rounded-full">Download <DownloadIcon fontSize="small"/> </button>
 
          </div>
 

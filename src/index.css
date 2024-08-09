@@ -21,3 +21,9 @@
 .custom-hr4 {
   @apply h-0.5 w-[10%] bg-black;
 }
+
+/* #section {
+  padding-top: 1000px;
+} */
+
+/* Adjust to account for fixed header if necessary */

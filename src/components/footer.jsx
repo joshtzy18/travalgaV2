@@ -4,7 +4,7 @@ const footer = () => {
   return (
     <>
     {/* mobile view */}
-    <div className=' w-full flex justify-center items-center h-auto py-20 px-12 gap-y-4 flex-col bg-gradient-to-r from-[#67C3F3] to-[#5A98F2]'>
+    <div id='about-us' className=' w-full flex justify-center items-center h-auto pt-20 pb-5 px-12 gap-y-4 flex-col bg-gradient-to-r from-[#67C3F3] to-[#5A98F2]'>
         
           {/* logo in the footer */}
     <div className='flex flex-row gap-x-2  justify-center items-center'>
